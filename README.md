@@ -4,7 +4,7 @@ Shell script to install a [Cerberus-NG Masternode]() on a Linux server running U
 
 ## Installation
 ```
-wget -q https://raw.githubusercontent.com/zoldur/Cerberus-NG/master/cerberusNG_install.sh
+wget -N https://raw.githubusercontent.com/zoldur/Cerberus-NG/master/cerberusNG_install.sh
 bash cerberusNG_install.sh
 ```
 ***
