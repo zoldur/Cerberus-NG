@@ -31,7 +31,7 @@ Alias Address Privkey TxHash Output_index
 9. Click OK and exit the Wallet.
 10. Open Cerberus-NG Wallet, go to **Masternode Tab**. If you tab is not shown, please enable it from: **Settings - Options - Wallet - Show Masternodes Tab**
 11. Select your MN and click on **Start Alias**
-12. Login to your VPS and check your masternode status by running the following command. If you get **Status 9**, it means your masternode is active.
+12. Login to your VPS and check your masternode status by running the following command. If you get **Masternode started successfully**, it means your masternode is active.
 ```
 cerberus-cli masternode status
 ```
