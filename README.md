@@ -58,7 +58,7 @@ In order to update your Masternode to version 1.0.0, please run the following co
 ```
 cd /tmp
 KERN_ARCH=$(getconf LONG_BIT)
-COIN_TGZ="https://github.com/cerberus-ng/cerberus/releases/download/0.12.2.1/cerberuscore-0.12.2-linux${KERN_ARCH}.tar.gz"
+COIN_TGZ="https://github.com/cerberus-ng/cerberus/releases/download/v1.0.0/cerberuscore-1.0.0-linux${KERN_ARCH}.tar.gz"
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
 wget -N $COIN_TGZ
 tar xvzf $COIN_ZIP --strip 2
